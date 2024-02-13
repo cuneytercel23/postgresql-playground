@@ -34,7 +34,7 @@ class BookController {
       limit: limit, // pagination
       include: [
         // include
-        {
+        { 
           model: User,
           as: "user",
         },
@@ -42,7 +42,7 @@ class BookController {
     });
     res.json(book);
   }
-
+ 
   async create(req, res) {
     const { name, userId } = req.body;
 

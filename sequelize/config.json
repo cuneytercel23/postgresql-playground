@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "felipemelo",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+
+  "comment": {
+    "_comment": "Bu bir yorum satırı gibi kullanılabilir",
+    "yorum": "pg adminde elle oluşturma sıramız 1-server grup oluşturursun sadece isim gireriz önemsizdir isim. 2-server oluşturursun(fil emojili olan) burada localhost, username ve passwordü verirsin ve isim verirsin(isim önemsizdir). 3- database oluşturursun isim vermen gereklidir ve isim configdeki database ile aynı olmalıdır. ",
+    "yorum2": "dialect ise postgre mi mysql mi olduğunu belirtir yanına pg'yi indirmem gerekiyor o yüzden sadece sequelize ile bitmez"
+  }
+}
